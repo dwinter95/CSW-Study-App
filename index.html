@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSW Study App — Society of Wine Educators</title>
+  <link rel="stylesheet" href="src/styles/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <div class="sidebar-header">
+        <div class="app-logo">
+          <span class="logo-icon">⬡</span>
+          <span class="logo-text">CSW Study</span>
+        </div>
+        <div class="sidebar-subtitle">Certified Specialist of Wine</div>
+      </div>
+      <nav id="chapter-nav"></nav>
+    </aside>
+
+    <main id="main">
+      <header id="topbar">
+        <div id="chapter-title-label" class="chapter-title">All Chapters</div>
+        <div class="mode-tabs" role="tablist">
+          <button class="mode-btn active" data-mode="overview" role="tab">Overview</button>
+          <button class="mode-btn" data-mode="flashcards" role="tab">Flashcards</button>
+          <button class="mode-btn" data-mode="quiz" role="tab">Quiz</button>
+          <button class="mode-btn" data-mode="mapquiz" role="tab">Map Quiz</button>
+          <button class="mode-btn" data-mode="ai" role="tab">AI Tutor</button>
+        </div>
+      </header>
+
+      <div id="content-area" role="tabpanel"></div>
+    </main>
+  </div>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
