@@ -1,0 +1,14 @@
+{
+  "name": "csw-study-app",
+  "version": "1.0.0",
+  "description": "CSW Certified Specialist of Wine — Study App with flashcards, quizzes, map quiz, and AI tutor",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
